@@ -1,0 +1,35 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/bundle": {
+        "revision": "12f0d2771034484a69f776e1ac2bea578a6b64fd"
+      },
+      "homebrew/core": {
+        "revision": "88ae2a0d2806d61b85c6ed6c7b93fc4b67f8f61d"
+      }
+    },
+    "cask": {
+      "slack": {
+        "version": "4.29.149",
+        "options": {
+          "full_name": "slack",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "ventura": {
+        "HOMEBREW_VERSION": "3.6.14",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "88ae2a0d2806d61b85c6ed6c7b93fc4b67f8f61d",
+        "CLT": "14.1.0.0.1.1666437224",
+        "Xcode": "14.1",
+        "macOS": "13.0.1"
+      }
+    }
+  }
+}

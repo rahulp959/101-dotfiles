@@ -1,0 +1,5 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+cask_args appdir: "~/Applications"
+
+cask 'slack'
