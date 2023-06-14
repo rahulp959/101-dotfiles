@@ -1,5 +1,8 @@
 cask_args appdir: "~/Applications"
 
-cask 'avg-antivirus'
-cask 'firefox'
-cask 'slack'
+# Installed by root user
+
+# cask 'avg-antivirus'
+# cask 'firefox'
+# cask 'slack'
+
