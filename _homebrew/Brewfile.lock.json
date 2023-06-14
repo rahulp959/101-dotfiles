@@ -2,17 +2,44 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "12f0d2771034484a69f776e1ac2bea578a6b64fd"
+        "revision": "6e315568a356bbe61eaf4a68022bd4ff62568876"
       },
       "homebrew/core": {
         "revision": "88ae2a0d2806d61b85c6ed6c7b93fc4b67f8f61d"
+      },
+      "homebrew/services": {
+        "revision": "9f1446cdfdffca2f0cc5cb14884a5870e99cadde"
+      },
+      "homebrew/cask-versions": {
+        "revision": "b607dd8b019fa489632025932fe655e4e0f0ba22"
+      },
+      "hashicorp/tap": {
+        "revision": "c7ee1f7b73b832a39f9058f893dc91bd5b3b9b62"
       }
     },
     "cask": {
       "slack": {
-        "version": "4.29.149",
+        "version": "4.32.127",
         "options": {
           "full_name": "slack",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "firefox": {
+        "version": "114.0.1",
+        "options": {
+          "full_name": "firefox",
+          "args": {
+            "appdir": "~/Applications"
+          }
+        }
+      },
+      "avg-antivirus": {
+        "version": "4.0,2.0",
+        "options": {
+          "full_name": "avg-antivirus",
           "args": {
             "appdir": "~/Applications"
           }
@@ -23,12 +50,12 @@
   "system": {
     "macos": {
       "ventura": {
-        "HOMEBREW_VERSION": "3.6.14",
+        "HOMEBREW_VERSION": "4.0.22",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "88ae2a0d2806d61b85c6ed6c7b93fc4b67f8f61d",
-        "CLT": "14.1.0.0.1.1666437224",
-        "Xcode": "14.1",
-        "macOS": "13.0.1"
+        "Homebrew/homebrew-core": "api",
+        "CLT": "14.3.1.0.1.1683849156",
+        "Xcode": "14.3",
+        "macOS": "13.4"
       }
     }
   }
